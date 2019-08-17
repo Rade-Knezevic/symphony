@@ -80,7 +80,7 @@ public class firstTest {
 		     SearchResultsPage.getTitlesOfItems(driver);
 		     
 			// quitting driver
-			// driver.quit();
+			 driver.quit();
 	}
 
 }
