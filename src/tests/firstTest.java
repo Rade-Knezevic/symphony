@@ -44,7 +44,7 @@ public class firstTest {
 		    .populatePasswordField(driver,password)
 		    .clickSubmitButton(driver);	    	
 
-		    startPage.sleepInMiliseconds(3000);
+		   // startPage.sleepInMiliseconds(3000);
 		    
 		    System.out.println("Checking if user is logged in");
 		    boolean isUserLoggedIn = startPage.isSignOutButtonPresent(driver);
